@@ -1,0 +1,74 @@
+
+/* MAP API */
+
+#map {
+    height: 500px;
+    width: 100%;
+}
+
+/* THE MOVIE DATABASE */
+
+.container-movies {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imgcard-movies{
+    width: 160px;
+    height: 200px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+
+#buscador-movies {
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+}
+.paginado-n-p {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.paginado-n-p button {
+    border: none;
+    background: #ea1538;
+    padding: 10px 15px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+    margin-left: 10px;
+}
+    
+.paginado-n-p button:hover{
+    transform:scale(1.2);
+    cursor: pointer;
+}
+
+#busqueda {
+    margin-top: 12px;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+}
+
+#icon {
+    border: none;
+    background: #ea1538;
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+    margin-left: 10px;
+}
+
+#icon:hover {
+    transform:scale(1.2);
+    cursor: pointer;
+}
